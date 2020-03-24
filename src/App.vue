@@ -1,15 +1,16 @@
 <template>
   <div>
-    Jim Dechant
-    Software Developer
-    https://www.linkedin.com/in/jimecksi/
-    https://github.com/Ecksi
-    Coming soon - https://www.jimecksi.com
+    <card />
   </div>
 </template>
 
 <script>
+  import Card from '@/components/Card';
+
   export default {
-    name: 'App'
-  }
+    name: 'App',
+    components: {
+      Card,
+    }
+  };
 </script>
